@@ -1,0 +1,30 @@
+$black: #121212;
+$white: #f1f1f1;
+
+.circleContainer {
+    top: 5vh;
+    position: fixed;
+    z-index: 0;
+    user-select: none;
+    width: 100vw;
+}
+
+.letterContainer {
+    width: 100vw;
+    height: 130rem;
+    display: block;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s ease-out;
+}
+
+.letterCommon {
+    display: block;
+    position: absolute;
+    font-size: 15rem;
+    height: 130rem;
+    width: 10rem;
+    color: $black;
+    -webkit-text-stroke: 1px $white;
+    // border: solid 1px $white;
+}
